@@ -1,4 +1,4 @@
-package com.prakash.prod_ready_features.cleints;
+package com.prakash.prod_ready_features.clients;
 
 import com.prakash.prod_ready_features.dto.EmployeeDTO;
 
@@ -7,4 +7,5 @@ import java.util.List;
 public interface EmployeeClient {
     List<EmployeeDTO> getAllEmployee();
     EmployeeDTO getEmployeeById(Long employeeId );
+    EmployeeDTO createEmployeeDTO(EmployeeDTO employee);
 }
